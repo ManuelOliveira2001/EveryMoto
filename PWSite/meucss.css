@@ -11,10 +11,12 @@ body {font-family: "Lato", sans-serif;}
   padding: 14px 16px;
   font-size: 17px;
   width: 25%;
+  transition: 0.5s;
 }
 
 .tablink:hover {
   background-color: #777;
+  
 }
 
 
@@ -23,6 +25,20 @@ body {font-family: "Lato", sans-serif;}
   display: none;
   padding: 50px;
   text-align: center;
+}
+
+.button1:hover {
+  background-color: green
+  
+}
+.button2:hover {
+  background-color: blue
+}
+.button3:hover {
+  background-color: red
+}
+.button4:hover {
+  background-color: orange
 }
 
 #Kawasaki {background-color:green;}
