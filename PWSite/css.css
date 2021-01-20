@@ -15,11 +15,17 @@
   padding-right: 8%;
   box-sizing: border-box;
   
-}
+  }
 
 .logo {
   width: 50px;
   cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+.logo:hover{
+  width: 100px;
+  transition: .5s ease-in-out;
 }
 
 .navbar{
@@ -28,11 +34,6 @@
   align-items: center;
 }
 
-.menu-icon{
-  width: 30px;
-  cursor: pointer;
-  margin-left: 40px;
-}
 
 nav{
   flex: 1;
@@ -61,11 +62,13 @@ nav ul li a {
 
 .col{
 flex-basis: 50%;
+
 }
 
 h1{
   color: #fff;
   font-size: 100px;
+  text-shadow: 0 0 10px #fff;
 
 }
 
@@ -73,6 +76,7 @@ p{
   color: #fff;
   font-size: 11px;
   line-height: 15px;
+  text-shadow: 0 0 5px #fff;
 }
 
 button{
@@ -103,13 +107,14 @@ button{
 }
 
 .card1{
-    background-image: url(images/zakawe.png);
-    transition: filter .5s ease-in-out;
-    -webkit-filter: grayscale(100%); 
-    filter: grayscale(100%); 
+    background-image: url(images/zakawe.png) ;
+    transition: filter .5s ease-in-out ; 
+    -webkit-filter: grayscale(100%) ; 
+    filter: grayscale(100%) ; 
 }
 
 .card1:hover {
+  transition: filter .5s ease-in-out;
   -webkit-filter: grayscale(0%); 
   filter: grayscale(0%);
 }
@@ -123,8 +128,10 @@ button{
 }
 
 .card2:hover{
+  transition: filter .5s ease-in-out;
   -webkit-filter: grayscale(0%); 
   filter: grayscale(0%); 
+ 
 }
 
 .card3{
@@ -135,8 +142,10 @@ button{
 }
 
 .card3:hover{
+  transition: filter .5s ease-in-out;
   -webkit-filter: grayscale(0%); 
   filter: grayscale(0%); 
+
 }
 
 .card4{
@@ -147,8 +156,10 @@ button{
 }
 
 .card4:hover{
+  transition: filter .5s ease-in-out;
   -webkit-filter: grayscale(0%); 
   filter: grayscale(0%); 
+  
 }
 
 .card5{
@@ -159,6 +170,7 @@ button{
 }
 
 .card5:hover{
+  transition: filter .5s ease-in-out;
   -webkit-filter: grayscale(0%); 
   filter: grayscale(0%); 
 }
@@ -171,8 +183,11 @@ button{
 }
 
 .card6:hover{
+  transition: filter .5s ease-in-out;
   -webkit-filter: grayscale(0%); 
   filter: grayscale(0%); 
+  
+  
 }
 
 h5{
@@ -183,15 +198,4 @@ h5{
 card p{
   text-shadow: 0 0 5px #f000;
   font-size: 8px;
-}
-
-.btn{
- width: 200px;
- height: 230px;
- background: transparent;
- border: none !important; 
-}
-
-.btn:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
