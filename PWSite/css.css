@@ -2,17 +2,19 @@
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+ 
 }
 
 .container {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0, 0.7)),url(images/enduro2.png);
+  background-image: linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0, 0.7)),url(images/testebackground.png);
   background-position: center;
   background-size: cover;
   padding-left: 8%;
   padding-right: 8%;
   box-sizing: border-box;
+  
 }
 
 .logo {
@@ -83,6 +85,7 @@ button{
   border-radius: 20px;
   outline: none;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 
@@ -97,28 +100,79 @@ button{
   margin: 10px 15px;
   background-position: center;
   background-size: cover;
-  transition: transform 0.5s;
-
 }
 
 .card1{
     background-image: url(images/zakawe.png);
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
 }
 
-.card2{
+.card1:hover {
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+}
+
+
+.card2 {
     background-image: url(images/honda.png);
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
+}
+
+.card2:hover{
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%); 
 }
 
 .card3{
     background-image: url(images/yamaha.png);
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
+}
+
+.card3:hover{
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%); 
 }
 
 .card4{
     background-image: url(images/suzuki.png);
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
 }
 
-.card:hover {
-  transform: translateY(-10px);
+.card4:hover{
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%); 
+}
+
+.card5{
+  background-image: url(images/ktm.png);
+  transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
+}
+
+.card5:hover{
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%); 
+}
+
+.card6{
+  background-image: url(images/husqvarna.png);
+  transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
+}
+
+.card6:hover{
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%); 
 }
 
 h5{
@@ -129,4 +183,15 @@ h5{
 card p{
   text-shadow: 0 0 5px #f000;
   font-size: 8px;
+}
+
+.btn{
+ width: 200px;
+ height: 230px;
+ background: transparent;
+ border: none !important; 
+}
+
+.btn:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
