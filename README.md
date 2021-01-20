@@ -5,4 +5,4 @@ O tema deste site é mostrar os ultimos e vários modelos de motociclos de varia
 Cada parte terá as motas dessa marca e as suas especificações.
 
 
-Link para o site: https://progwebmanel.000webhostapp.com/
+Link para o site: https://progwebmanel.000webhostapp.com/EveryMoto/
