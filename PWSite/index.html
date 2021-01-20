@@ -1,54 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="meucss.css">
-    <title>Motas</title>
-</head>
-<body>
-    <div id="Kawasaki" class="tabcontent">
-        <h1>Kawasaki</h1>
-        <p>Motas Kawasaki</p>
-      </div>
-      
-      <div id="Yamaha" class="tabcontent">
-        <h1>Yamaha</h1>
-        <p>Motas Yamaha</p> 
-      </div>
-      
-      <div id="Honda" class="tabcontent">
-        <h1>Honda</h1>
-        <p>Motas Honda</p>
-      </div>
-      
-      <div id="Suzuki" class="tabcontent">
-        <h1>Suzuki</h1>
-        <p>Motas Suzuki</p>
-      </div>
-      <button class="tablink button1" onclick="openMota('Kawasaki', this, 'green')" id="defaultOpen">Kawasaki</button>
-<button class="tablink button2"  onclick="openMota('Yamaha', this, 'blue')">Yamaha</button>
-<button class="tablink button3" onclick="openMota('Honda', this, 'red')">Honda</button>
-<button class="tablink button4" onclick="openMota('Suzuki', this, 'orange')">Suzuki</button>
+    <title>EveryMoto</title>
+  <link rel="stylesheet" href="css.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"
+  </head>
+  <body>
+<div class="container">
+  <div class="navbar">
+  <img src="images/logo.png" class="logo">
+    <nav>
+      <ul>
+          <li><a href="">HOME</a></li>
+            <li><a href="">LOGIN</a></li>
+              <li><a href="">SIGN UP</a></li>
+              </ul>
+            </nav>
+<img src="images/menu.png" class="menu-icon">
+  </div>
+  <div class="row">
+    <div class="col">
+      <h1>EveryMoto</h1>
+      <p>Motas de Cross, Supercross, Enduro e Dual Sport das 4 marcas principais.</p>
+      <button type="button">Explorar</button>
+    </div>
 
-<script>
-    function openMota(nomeMota,elmnt,color) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablink");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].style.backgroundColor = "";
-      }
-      document.getElementById(nomeMota).style.display = "block";
-      elmnt.style.backgroundColor = color;
-    
-    }
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-    </script>
+          <div class="col">
 
-</body>
+          <div class="card card1">
+          <h5>Kawasaki</h5>
+          <p>Ver Modelos</p>
+          </div>
+
+           <div class="card card2">
+           <h5>Honda</h5>
+           <p>Ver Modelos</p>
+           </div>
+
+         <div class="card card3">
+          <h5>Yamaha</h5>
+          <p>Ver Modelos</p>
+         </div>
+
+         <div class="card card4">
+          <h5>Suzuki</h5>
+          <p>Ver Modelos</p>
+         </div>
+
+      </div>
+  </div>
+</div>
+  </body>
 </html>
