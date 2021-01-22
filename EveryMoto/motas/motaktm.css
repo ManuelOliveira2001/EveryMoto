@@ -34,7 +34,7 @@
     height: 12%;
     display: flex;
     align-items: center;
-    background-color: red;
+    background-color: #F2771A;
 
   }
   
@@ -124,7 +124,7 @@
   padding-right: 25%;
   font-size: 18px;
   margin-right: 1150px;
-  margin-bottom: 1px;
+  margin-bottom: 30%;
   width:200px;
   text-shadow: 2px 2px black;
   
@@ -141,7 +141,7 @@
   padding-right:25%;
   font-size: 18px;
   margin-right: 1000px;
-  margin-bottom: 25%;
+  margin-bottom: 50px;
   width:200px;
   text-shadow: 2px 2px black;
 }

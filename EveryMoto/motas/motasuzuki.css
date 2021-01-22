@@ -34,7 +34,7 @@
     height: 12%;
     display: flex;
     align-items: center;
-    background-color: red;
+    background-color: rgb(255, 217, 0);
 
   }
   
@@ -108,7 +108,7 @@
   padding-right: 25%;
   font-size: 18px;
   margin-right: 900px;
-  margin-bottom: 700px;
+  margin-bottom: 40%;
   width:400px;
   text-shadow: 2px 2px black;
 }
@@ -124,7 +124,7 @@
   padding-right: 25%;
   font-size: 18px;
   margin-right: 1150px;
-  margin-bottom: 1px;
+  margin-bottom: 30%;
   width:200px;
   text-shadow: 2px 2px black;
   
@@ -141,7 +141,7 @@
   padding-right:25%;
   font-size: 18px;
   margin-right: 1000px;
-  margin-bottom: 25%;
+  margin-bottom: 400px;
   width:200px;
   text-shadow: 2px 2px black;
 }
