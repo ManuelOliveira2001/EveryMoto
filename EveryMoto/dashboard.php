@@ -14,6 +14,8 @@ include("auth_session.php");
         <p>Hey, <?php echo $_SESSION['username']; ?>!</p>
         <p>Area do Utilizador.</p>
         <p><a href="logout.php">Logout</a></p>
+        <p><a href="index.php">Inicio</a></p>
+
     </div>
 </body>
 </html>

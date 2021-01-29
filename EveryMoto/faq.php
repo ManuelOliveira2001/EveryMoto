@@ -13,7 +13,7 @@
               <nav>
                 <ul>
                     <li><a href="index.php" >INICIO</a></li>
-                      <li><a href="treta.php">LOGIN</a></li>
+                      <li><a href="dashboard.php">UTILIZADOR</a></li>
                         <li><a href="faq.php">SOBRE</a></li>
                         </ul>
                       </nav>

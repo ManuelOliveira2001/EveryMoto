@@ -23,7 +23,7 @@
     <div class="col">
       <h1>EveryMoto</h1>
       <p>Motas de Cross, Enduro e Dual Sport das principais marcas.</p>
-      <button type="button" onclick="window.location.href='/EveryMoto/registration.php'">Registar</button>
+      <button type="button" onclick="window.location.href='/EveryMoto/comparar.php'">2 Tempos VS 4 Tempos</button>
     </div>
 
           <div class="col">
