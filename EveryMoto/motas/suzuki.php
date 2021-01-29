@@ -1,0 +1,64 @@
+<html>
+  <link rel="stylesheet" href="/EveryMoto/motas/motasuzuki.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EveryMoto</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<div class="container">
+  <div class="navbar">
+  <img src="/EveryMoto/images/logo.png" class="logo" onclick="window.location.href='/EveryMoto/index.php'">
+    <nav>
+      <ul>
+          <li><a href="/EveryMoto/index.php" >INICIO</a></li>
+          <li><a href="/EveryMoto/dashboard.php">UTILIZADOR</a></li>
+              <li><a href="/EveryMoto/faq.php">SOBRE</a></li>
+              </ul>
+            </nav>
+  </div>
+  <div class="container2">
+    <img src="/EveryMoto/images/rmz450x.png" style="width:100%;">
+    <div class="text-block1">
+      <h4> RMZ450X - Enduro</h4>
+      <p>A nova Suzuki RMX450Z 2021 oferece uma força de enduro para pilotos de trilha que desejam um nível mais alto de desempenho. 
+          Este novo empreendedor off-road partilha componentes essenciais com a versção de motocross premiada com o campeonato RM-Z450. 
+          Ela começa com um motor de quatro válvulas e quatro tempos de 449 cc com tecnologia de injeção de combustível Suzuki que oferece potência suave, confiabilidade
+           confiável e alta eficiência de combustível. Para usos off-road, os engenheiros da Suzuki modificaram a admissão do motor, adicionaram uma caixa de ar articulada de fácil acesso 
+           e reviram os perfis do came para melhorar a entrega de potência de baixo a médio alcance. 
+          O pacote também inclui um gerador magnético maior para carregamento da bateria e potência do farol. Uma transmissão 
+          ampla de cinco velocidades ajuda os pilotos a resistir em várias condições.
+          
+      </p>
+    </div>
+  </div>
+
+
+
+  <div class="container3">
+    <img src="/EveryMoto/images/rm450z.png" style="width:100%;">
+    <div class="text-block2">
+      <h4> RM450Z - Motocross</h4>
+      <p>O sucesso nas pistas requer uma tecnologia de ponta para a moto e um treino intenso para o piloto para ambos conseguirem estar no topo.
+        Para o seu 14º aniversário, a Suzuki incorporou mais de 40 anos de engenharia na RM-Z450 2018 que foi completamente remodelada, dando especial atenção à obtenção de um maior equilíbrio, 
+        a um motor, chassis e sistema eléctrico repensado e a uma estética renovada. O resultado? Uma RM-Z450 mais pontente, equilibrada e competitiva.
+        </p>
+    </div>
+  </div>
+  
+  <div class="container4">
+    <img src="/EveryMoto/images/drz400e.png" style="width:100%;">
+    <div class="text-block3">
+      <h4> DRZ400E - Dual Sport</h4>
+      <p> Os pilotos ficarão impressionados com a quantidade de torque proveniente do motor refrigerado a líquido de 398cc,
+        bem como o manuseio preciso da suspensão ajustável. Esta mota ultraconfiável é totalmente permitida nas ruas, com start elétrico e um
+         conjunto de instrumentos de fácil leitura. A carroçaria em preto sólido com gráficos em branco contrastante destacam a moto na estrada, na trilha ou mesmo quando estacionada.
+      Esteja você na estrada ou em um caminho de terra na floresta, a Suzuki DR-Z400S não pode ser superada.
+        </p>
+    </div>
+  </div>
+</div>
+</div>
+  </body>
+</html>
